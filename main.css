@@ -1,0 +1,33 @@
+body{
+    margin: 0%;
+}
+section {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/61cc2a8422a3e5708f6f9f60/c59e877c-bf90-49cc-a84d-a3a31b838588/IMG_2241_HDR.jpg?format=2500w);
+    
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em 2em;
+    max-width: 25%;
+}
+#logo{
+    width: auto;
+    max-width: 100%;
+    max-height: 231px;
+}
+.navbar a {
+    font-size: 2em;
+    color: black;
+    text-decoration: none;
+}
+.whitespace {
+    height:60em;
+    width:auto;
+}
